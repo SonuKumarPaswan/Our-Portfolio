@@ -13,9 +13,25 @@ export let myRoutes=createBrowserRouter([
                 element:<Home/>,
             },
             {
-               path:"/hoome",
+               path:"/about",
                 element:<Home/>,
-            }
+            },
+            {
+               path:"/education",
+                element:<Home/>,
+            },
+            {
+               path:"/skills",
+                element:<Home/>,
+            },
+            {
+               path:"/projects",
+                element:<Home/>,
+            },
+            {
+               path:"/contact",
+                element:<Home/>,
+            },
         ]
     },
     {
