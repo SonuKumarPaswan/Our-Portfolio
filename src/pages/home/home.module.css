@@ -11,6 +11,8 @@
     display: flex;
     justify-content: space-between;
     margin-left: 100px;
+    height:600px;
+    z-index: 2;
 }
 .content{
     margin-top: 100px;
@@ -58,7 +60,6 @@
     top: 100px;
     right: 100px;
     rotate: 225deg;
-    z-index: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,12 +136,12 @@
   #cv{
     width: 120px;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color: transparent;
     margin-top: 20px;
     padding: 10px;
     font-size: 1rem;
     align-items: center;
-    box-shadow: none;
+    box-shadow: 1px 1px  1px 1px  #FFAB91;
   }
   #cv:hover{
     font-size: 1.1rem;
@@ -151,6 +152,6 @@
   .cvIcon{
     font-size: 1rem;
     margin-left: 10px;
-    background-color: blueviolet;
+    background-color: transparent;
     align-items: center;
   }

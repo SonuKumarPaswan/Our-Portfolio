@@ -4,12 +4,15 @@ import { Outlet } from 'react-router-dom'
 import Footer from '../../components/footer/Footer'
 import Home from '../home/Home'
 import About from '../home/About'
+import Education from '../home/Education'
 
 const Layout = () => {
   return (
     <div>
      <Navbar/>
-     <Outlet/>
+      <Home/>
+      <About/>
+      <Education/>
      <Footer/>
     </div>
   )

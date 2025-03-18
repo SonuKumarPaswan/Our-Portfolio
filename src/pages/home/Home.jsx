@@ -32,7 +32,7 @@ const Home = () => {
           });
 
   return (
-    <Fragment>
+    
     <div className={style.conatiner}>
       <div className={style.content}>
         <h2>Hi👋, I'm</h2>
@@ -41,13 +41,13 @@ const Home = () => {
         <i>I'm Passionate and motivated Java Full Stack Developer with <br /> a solid  foundation in   Java programming and web <br /> development technologies.
         </i>
         <div>
-          <Link to={""} ><TiSocialLinkedin  className={style.linkedIn}/>
+          <Link to={"https://www.linkedin.com/in/sonukumarpaswan/"} ><TiSocialLinkedin  className={style.linkedIn}/>
           </Link>
           <Link to={"https://github.com/SonuKumarPaswan"} ><FaGithub   className={style.linkedIn}/>
           </Link>
-          <Link to={"https://github.com/SonuKumarPaswan"} ><HiOutlineMail   className={style.linkedIn}/>
+          <Link to={"sonupaswan0381@gmail.com"}  alt="_black"  ><HiOutlineMail   className={style.linkedIn}/>
           </Link>
-          <Link to={"https://github.com/SonuKumarPaswan"} ><SiLeetcode   className={style.linkedIn}/>
+          <Link to={"https://leetcode.com/u/zsonukumar0578/"} ><SiLeetcode   className={style.linkedIn}/>
           </Link>
         </div>
 
@@ -69,8 +69,6 @@ const Home = () => {
         </div>
       </div>
     </div>
-     
-    </Fragment>
   )
 }
 
