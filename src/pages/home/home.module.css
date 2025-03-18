@@ -31,6 +31,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 .social{
     width: 50px;
@@ -40,11 +41,13 @@
     align-items: center;
 }
 .linkedIn{
-    margin-top: 20px;
-    font-size:2.7rem;
+    margin-top: 30px;
+    font-size:2.5rem;
     border-radius: 50%;
-    border:1px solid #FAFAFA ;
-    margin-left: 10px;
+    margin-right: 25px;
+}
+.linkedIn:hover{
+    box-shadow: 1px 1px 10px  #FAFAFA;
 }
 .one{
     height: 430px;
@@ -53,13 +56,13 @@
     border-top: 1px  solid rgb(237, 227, 227);
     position: absolute;
     top: 100px;
-    right: 89px;
+    right: 100px;
     rotate: 225deg;
     z-index: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+   overflow: hidden;
 }
 .two{
     height: 420px;
@@ -70,7 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: transparent;
 }
 .three{
     height: 410px;
@@ -81,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 
 }
 .four{
@@ -88,5 +92,65 @@
     width: 400px;
     border-right: 1px  solid rgb(237, 227, 227);
     border-top: 1px  solid rgb(237, 227, 227);
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: transparent;
+    
 }
+.photo{
+    width: 400px;
+    height:400px;
+    position: absolute;
+    rotate: 135deg;
+    /* opacity: 0.9; */
+    border-left: #212121 1px solid;  
+    border-radius: 50%;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      rotate: 45deg;
+    }
+    25% {
+      opacity: 0.25;
+      rotate: 60deg;
+    }
+    50% {
+      opacity: 0.35;
+      rotate: 92deg;
+    }
+    75% {
+        opacity: 0.55;
+        rotate: 105deg;
+      }
+    100% {
+        opacity: 8;
+        rotate: 135deg;
+      }
+  }
+
+  #cv{
+    width: 120px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    align-items: center;
+    box-shadow: none;
+  }
+  #cv:hover{
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px  #FFAB91;
+  }
+
+  .cvIcon{
+    font-size: 1rem;
+    margin-left: 10px;
+    background-color: blueviolet;
+    align-items: center;
+  }

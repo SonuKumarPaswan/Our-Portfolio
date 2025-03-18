@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         <div className={style.links}>
           <p><Link to={"/"} className={style.link}><span>Home</span></Link>  </p>
-          <p><Link to={"/"} className={style.link}>About</Link>  </p>
+          <p><Link to={"/about"} className={style.link}>About</Link>  </p>
           <p><Link to={"/"} className={style.link}>Education</Link>  </p>
           <p><Link to={"/"} className={style.link}>Skills</Link>  </p>
           <p><Link to={"/"}className={style.link}>Projects</Link>  </p>
