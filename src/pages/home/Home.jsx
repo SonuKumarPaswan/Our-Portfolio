@@ -53,8 +53,8 @@ const Home = () => {
 
         <div>
           <Link to={"https://drive.google.com/drive/u/0/home"}><button id={style.cv}>View CV <GrView className={style.cvIcon} /> </button></Link>
-          
         </div>
+      
       </div>
 
       <div>

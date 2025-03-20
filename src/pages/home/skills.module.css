@@ -10,16 +10,32 @@
 .skillsContainer  hr{
   width: 300px;
   margin: 10px 20px;
+  margin-bottom: 50px;
 }
 .skillsContainer div h1 {
 background-color: #101112;
+
+}
+.skillsWrapper{
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  background-color: #101112;
 }
 .skills{
   padding:20px;
-  border-radius: 29px;
-  background-color: inherit; 
+  border-radius: 10px;
+  background-color: #212121;
+  padding-bottom: 30px;
+}
+.skills h2{
+  margin-left: 20px;
+}
+.skills hr{
+  margin-top: 10px;
+  margin-bottom:10px ;
 }
 .skills section li{
-  margin-left: 20px;
-  padding-top: 10px;
+  margin-left: 30px;
+  padding-top: 12px;
 }

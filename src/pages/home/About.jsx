@@ -15,7 +15,7 @@ const About = () => {
         <span>Front End </span> Developer
       </h4>
       <p> I'm Sonu Paswan. I have completed my B.Tech Technocrats Institute of Technology from Bhopal, MP. After Graduation I am join Jspider Noida, Up and to inhence my knowledge I am learn <span>Front End</span> and <span>Backend Technology</span>. And I solve 300+ problem on <a href="https://leetcode.com/u/zsonukumar0578/"><span>LeetCode <FiExternalLink /> </span></a> </p>
-      <a href=""><button> Read more</button></a>
+      <a href="https://www.linkedin.com/in/sonukumarpaswan/"><button> Read more</button></a>
       </div>
     </div>
   )
