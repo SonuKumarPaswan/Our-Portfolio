@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
 }
+.educationContainer hr{
+ width: 200px;
+}
 .educationContainer div{
   margin: 20px;
   display: flex;

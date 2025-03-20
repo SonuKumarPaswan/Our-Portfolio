@@ -10,6 +10,7 @@ const Education = () => {
       <div>
         <h1>Education</h1>
       </div>
+      <hr />
        <div>
         <div className={style.education}>
           <IoSchoolSharp  className={style.collegeIcon}/>

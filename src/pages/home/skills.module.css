@@ -1,0 +1,25 @@
+.skillsContainer {
+      padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101112 ;
+
+  }
+.skillsContainer  hr{
+  width: 300px;
+  margin: 10px 20px;
+}
+.skillsContainer div h1 {
+background-color: #101112;
+}
+.skills{
+  padding:20px;
+  border-radius: 29px;
+  background-color: inherit; 
+}
+.skills section li{
+  margin-left: 20px;
+  padding-top: 10px;
+}
