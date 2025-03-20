@@ -5,6 +5,7 @@ import Footer from '../../components/footer/Footer'
 import Home from '../home/Home'
 import About from '../home/About'
 import Education from '../home/Education'
+import Skills from '../home/Skills'
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
       <Home/>
       <About/>
       <Education/>
+      <Skills/>
      <Footer/>
     </div>
   )

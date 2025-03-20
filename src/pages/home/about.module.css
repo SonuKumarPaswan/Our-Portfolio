@@ -54,6 +54,7 @@ color: brown;
     border-radius: 10px;
     margin-top: 30px;
     box-shadow: 1px 1px  1px 1px  #FFAB91;
+    transition: 5ms;
 }
 #about button:hover {
     font-size: 1.1rem;
@@ -70,9 +71,16 @@ color: brown;
     /* box-shadow: 1px 1px  1px 1px  #FFAB91; */
 }
 #image img{
+ /* border-top: 1px solid blueviolet; */
+ border-top-right-radius: 70px;
+ border-bottom-left-radius: 70px;
+ box-shadow: 1px 1px 10px #e3a9a9;
+ transition: 3s;
+}
+#image img:hover{
  border-top: 1px solid blueviolet;
  /* border-radius: 40%; */
  border-top-right-radius: 70px;
  border-bottom-left-radius: 70px;
- box-shadow: 1px 1px  1px 1px  #FFAB91;
+ box-shadow: 1px 1px 10px #e3a9a9;
 }
