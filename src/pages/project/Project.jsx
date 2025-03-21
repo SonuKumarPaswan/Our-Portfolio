@@ -4,7 +4,7 @@ import styles from './project.module.css'
 const Project = () => {
   return (
     <div>
-      <h1>My Project</h1>
+      <h1>Latest Project</h1>
     </div>
   )
 }

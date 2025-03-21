@@ -12,6 +12,7 @@ const Education = () => {
       </div>
       <hr />
        <div>
+        <a href="https://technocratsgroup.edu.in/" >
         <div className={style.education}>
           <IoSchoolSharp  className={style.collegeIcon}/>
           <h2><span>Techno</span>crats Institute of Technology Bhopal, MP </h2>
@@ -21,7 +22,8 @@ const Education = () => {
           <p>Aug 2020- July 2024</p>
           <p>CGPA - 8.78 </p>
         </div>
-
+          </a>
+          <a href="https://rkclnmu.ac.in/">
         <div className={style.education}>
           <FaBuildingColumns  className={style.collegeIcon}/>
           <h2><span>Ram Kris</span>hna College Madhubani, Bihar </h2>
@@ -31,6 +33,8 @@ const Education = () => {
           <p> Aug 2018- March 2020</p>
           <p>Persentage - 71% </p>
         </div>
+        </a>
+        <a href="#">
         <div className={style.education}>
           <FaSchoolFlag  className={style.collegeIcon}/>
           <h2><span>Kabir Hi</span>gh School Selra, Madhubani </h2>
@@ -40,6 +44,7 @@ const Education = () => {
           <p> March 2017- Feb 2018</p>
           <p>Persentage - 62.6%</p>
         </div>
+        </a>
       </div>
 
     </div>
