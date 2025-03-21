@@ -68,7 +68,7 @@ const Contact = () => {
       <div className={styles.contactForm}>
         <h3><span>Mess</span>age me</h3>
         <form action="" onSubmit={handleSubmit}>
-            <input type="text" placeholder='Enter the name' autoFocus onChange={handleChange} name='name' value={contact.name}  required/> <br />
+            <input type="text" placeholder='Enter the name'  onChange={handleChange} name='name' value={contact.name}  required/> <br />
             <input type="email" placeholder='Enter the Email' name='email' value={contact.email} required onChange={handleChange} /> <br />
             <input type="tel" placeholder=' +91 Enter the phone'onChange={handleChange} maxLength={10} required name='phone' value={contact.phone}/><br />
             <input type="text" placeholder='Enter Subject'onChange={handleChange} name='subject' value={contact.subject} required /><br />

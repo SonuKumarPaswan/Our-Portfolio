@@ -31,12 +31,16 @@
    border-radius: 10px;
 }
 .card div>img{
-    width: 360px;
-    height: 250px;
+    width: 340px;
+    height: 240px;
     padding: 2px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    /* border: 2px solid red; */
+    transition: 1s;
+    
+}
+.card:hover div>img:hover{
+    width: 360px;
 }
 .content{
     margin-top: 10px;
@@ -47,6 +51,7 @@
     align-items: start;
     border-radius: 10px;
 }
+
 .content h2{
    /* color: aquamarine; */
    margin-bottom: 10px;

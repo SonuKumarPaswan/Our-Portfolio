@@ -12,6 +12,7 @@
     bottom: 0;
     box-shadow: 1px 1px 6px rgb(221, 131, 131);
     margin-bottom: 50px;
+    cursor: pointer;
 }
 .footer>h1{
     padding: 10px;
