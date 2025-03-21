@@ -92,4 +92,9 @@
 }
 .contactInfo div>div>p{
     margin-top: 5px;
+    color:#e4987c;
+    cursor: pointer;
+}
+.contactInfo div>div>p:hover{
+    color:#b6765f;
 }
