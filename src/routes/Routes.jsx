@@ -3,6 +3,10 @@ import Layout from '../pages/layout/Layout'
 import Notfound from '../pages/layout/Notfound'
 import Home from "../pages/home/Home";
 import About from "../pages/home/About";
+import Education from "../pages/home/Education";
+import Skills from "../pages/home/Skills";
+import Project from "../pages/project/Project";
+import Contact from "../pages/contact/Contact";
 
 export let myRoutes=createBrowserRouter([
     {
@@ -11,28 +15,28 @@ export let myRoutes=createBrowserRouter([
         children:[
             {
                 index:true,
-                element:<Home/>,
+                element:<Home/> 
             },
             {
-               path:"/about",
-                element:<About/>,
-            },
-            {
-               path:"/education",
-                element:<Home/>,
-            },
-            {
-               path:"/skills",
-                element:<Home/>,
-            },
-            {
-               path:"/projects",
-                element:<Home/>,
-            },
-            {
-               path:"/contact",
-                element:<Home/>,
-            },
+                path:"/about",
+                 element:<About/>,
+             },
+             {
+                path:"/education",
+                 element:<Education/>,
+             },
+             {
+                path:"/skills",
+                 element:<Skills/>,
+             },
+             {
+                path:"/projects",
+                 element:<Project/>,
+             },
+             {
+                path:"/contact",
+                 element:<Contact/>,
+             },
         ]
     },
     {
