@@ -10,6 +10,7 @@ import myImage from './image.png'
 import About from './About';
 
 const Home = () => {
+
   useEffect(() => {
 						const typingAnimationElement = document.getElementById('typing-animation');
 						const typingTexts = [
@@ -59,7 +60,7 @@ const Home = () => {
 
       <div>
         <div className={style.one}>  
-            <img src={myImage} alt="Image" className={style.photo}  />
+            <img src={myImage} alt="Image" className={style.photo} id='imag'  />
           <div className={style.two}>
             <div className={style.three}>
             <div className={style.four}>

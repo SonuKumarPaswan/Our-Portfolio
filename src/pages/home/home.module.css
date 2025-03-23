@@ -41,6 +41,7 @@
     border-radius: 50%;
     border: 2px solid #FFAB91;
     align-items: center;
+  
 }
 .linkedIn{
     margin-top: 30px;
@@ -101,35 +102,41 @@
     
 }
 .photo{
-    width: 400px;
+    width: 100px;
     height:400px;
     position: absolute;
     rotate: 135deg;
-    /* opacity: 0.9; */
     border-left: #212121 1px solid;  
     border-radius: 50%;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 3s ease-in;
+    transition: 3s;
+    transform: scaleX(4);
 }
 @keyframes fadeIn {
     0% {
       opacity: 0;
       rotate: 45deg;
+      transform: scaleX(1);
     }
     25% {
       opacity: 0.25;
       rotate: 60deg;
+      transform: scaleX(2);
     }
     50% {
       opacity: 0.35;
       rotate: 92deg;
+      transform: scaleX(3);
     }
     75% {
         opacity: 0.55;
         rotate: 105deg;
+        transform: scaleX(3.5);
       }
     100% {
         opacity: 8;
         rotate: 135deg;
+        transform: scaleX(4);
       }
   }
 
@@ -142,11 +149,13 @@
     font-size: 1rem;
     align-items: center;
     box-shadow: 1px 1px  1px 1px  #FFAB91;
+    background: linear-gradient(120deg, rgb(66, 60, 60), rgb(62, 14, 14));
   }
   #cv:hover{
     font-size: 1.1rem;
     font-weight: 500;
     box-shadow: 1px 1px 8px  #FFAB91;
+    background: linear-gradient(120deg, rgb(62, 14, 14), rgb(109, 13, 13));
   }
 
   .cvIcon{

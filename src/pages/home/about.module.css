@@ -55,11 +55,14 @@ color: brown;
     margin-top: 30px;
     box-shadow: 1px 1px  1px 1px  #FFAB91;
     transition: 5ms;
+    background: linear-gradient(120deg, rgb(66, 60, 60), rgb(37, 10, 10));
 }
 #about button:hover {
     font-size: 1.1rem;
     font-weight: 500;
     box-shadow: 1px 1px 8px  #FFAB91;
+    background: l;
+    background: linear-gradient(120deg, rgb(24, 5, 5), rgb(109, 13, 13));
 }
 #image{
     width: 30%;
@@ -75,12 +78,14 @@ color: brown;
  border-top-right-radius: 70px;
  border-bottom-left-radius: 70px;
  box-shadow: 1px 1px 10px #e3a9a9;
- transition: 3s;
+ transition: 1s;
 }
 #image img:hover{
  border-top: 1px solid blueviolet;
- /* border-radius: 40%; */
- border-top-right-radius: 70px;
- border-bottom-left-radius: 70px;
+ transform: scaleX(1.1);
+ border-top-right-radius: 0px;
+ border-bottom-left-radius: 0px;
+ border-bottom-right-radius: 70px;
+ border-top-left-radius: 70px;
  box-shadow: 1px 1px 10px #e3a9a9;
 }
