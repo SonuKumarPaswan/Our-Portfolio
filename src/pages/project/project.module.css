@@ -86,3 +86,107 @@
 .linkIcon{
     background-color: inherit;
 }
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .container {
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card div > img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card div > img:hover {
+        width: 320px;
+    }
+
+    .content {
+        width: 290px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .card div > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card div > img:hover {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .container div > button {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 1.8rem;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .container div > button {
+        width: 70%;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .content h2 {
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        font-size: 0.8rem;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .container div > button {
+        width: 80%;
+        font-size: 0.8rem;
+    }
+}

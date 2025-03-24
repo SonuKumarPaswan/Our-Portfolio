@@ -3,7 +3,7 @@ import style from './home.module.css'
 import {Link} from 'react-router-dom'
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa6";
-import { HiOutlineMail } from "react-icons/hi";
+import { FaInstagram } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { GrView } from "react-icons/gr";
 import myImage from './image.png'
@@ -46,7 +46,7 @@ const Home = () => {
           </Link>
           <Link to={"https://github.com/SonuKumarPaswan"} ><FaGithub   className={style.linkedIn}/>
           </Link>
-          <Link to={"sonupaswan0381@gmail.com"}  alt="_black"  ><HiOutlineMail   className={style.linkedIn}/>
+          <Link to={"https://www.instagram.com/er.sonu__0578/"}  alt="_black"  ><FaInstagram   className={style.linkedIn}/>
           </Link>
           <Link to={"https://leetcode.com/u/zsonukumar0578/"} ><SiLeetcode   className={style.linkedIn}/>
           </Link>

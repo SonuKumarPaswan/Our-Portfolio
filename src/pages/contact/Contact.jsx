@@ -3,6 +3,7 @@ import styles from './contact.module.css'
 import { RiContactsFill } from "react-icons/ri";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
+// import emailjs from 'emailjs-com';
 
 const Contact = () => {
   let [contact,setContact]=useState({
@@ -17,17 +18,48 @@ const Contact = () => {
     setContact({...contact,[name]:value});
   }
   
-  function handleSubmit(e){
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(contact);
-    setContact({
-      name:'',
-      email:'',
-      phone:'',
-      subject:'',
-      message:''
-    })
-  }
+
+    // Replace these with your EmailJS credentials
+    const serviceID = 'YOUR_SERVICE_ID';
+    const templateID = 'YOUR_TEMPLATE_ID';
+    const userID = 'YOUR_USER_ID';
+
+    // Send the email using EmailJS
+    emailjs
+      .send(
+        serviceID,
+        templateID,
+        {
+          name: contact.name,
+          email: contact.email,
+          phone: contact.phone,
+          subject: contact.subject,
+          message: contact.message,
+        },
+        userID
+      )
+      .then(
+        (response) => {
+          console.log('Email sent successfully!', response.status, response.text);
+          alert('Your message has been sent successfully!');
+          // Reset the form
+          setContact({
+            name: '',
+            email: '',
+            phone: '',
+            subject: '',
+            message: '',
+          });
+        },
+        (error) => {
+          console.error('Failed to send email:', error);
+          alert('Failed to send the message. Please try again later.');
+        }
+      );
+  };
+
 
   return (
     <div className={styles.contactContainer}>

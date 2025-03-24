@@ -1,91 +1,187 @@
-#container{
-    padding:70px 0;
+/* Existing CSS */
+#container {
+    padding: 70px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1e1e1f;
 }
-#about{
+
+#about {
     width: 50%;
     display: flex;
     flex-direction: column;
     padding: 30px;
     align-items: flex-start;
     margin-bottom: 50px;
-    background-color: transparent
+    background-color: transparent;
 }
-#about  h4{
+
+#about h4 {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 500;
-   margin-bottom:50px;
-   margin-top: 10px;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
-#about  h4 span{
-    font-size: 1.5rem;  
+
+#about h4 span {
+    font-size: 1.5rem;
 }
-#about span{
+
+#about span {
     font-size: 1rem;
     font-weight: 600;
 }
-#about a{
-text-decoration: none;
-}
-#about a:hover{
-text-decoration: underline;
-color: brown;
 
+#about a {
+    text-decoration: none;
 }
-#about a span:hover{
-   color: rgb(239, 234, 245);
-   text-decoration: none;
-   font-size: 1rem;
+
+#about a:hover {
+    text-decoration: underline;
+    color: brown;
 }
-#about p{
+
+#about a span:hover {
+    color: rgb(239, 234, 245);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#about p {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 400;
     background-color: transparent;
 }
-#about button{
+
+#about button {
     font-size: 1rem;
-   width: 130px;
-   object-fit: cover;
+    width: 130px;
+    object-fit: cover;
     border-radius: 10px;
     margin-top: 30px;
-    box-shadow: 1px 1px  1px 1px  #FFAB91;
+    box-shadow: 1px 1px 1px 1px #FFAB91;
     transition: 5ms;
     background: linear-gradient(120deg, rgb(66, 60, 60), rgb(37, 10, 10));
 }
+
 #about button:hover {
     font-size: 1.1rem;
     font-weight: 500;
-    box-shadow: 1px 1px 8px  #FFAB91;
-    background: l;
+    box-shadow: 1px 1px 8px #FFAB91;
     background: linear-gradient(120deg, rgb(24, 5, 5), rgb(109, 13, 13));
 }
-#image{
+
+#image {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
     background-color: transparent;
-    /* box-shadow: 1px 1px  1px 1px  #FFAB91; */
 }
-#image img{
- /* border-top: 1px solid blueviolet; */
- border-top-right-radius: 70px;
- border-bottom-left-radius: 70px;
- box-shadow: 1px 1px 10px #e3a9a9;
- transition: 1s;
+
+#image img {
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    box-shadow: 1px 1px 10px #e3a9a9;
+    transition: 1s;
 }
-#image img:hover{
- border-top: 1px solid blueviolet;
- transform: scaleX(1.1);
- border-top-right-radius: 0px;
- border-bottom-left-radius: 0px;
- border-bottom-right-radius: 70px;
- border-top-left-radius: 70px;
- box-shadow: 1px 1px 10px #e3a9a9;
+
+#image img:hover {
+    border-top: 1px solid blueviolet;
+    transform: scaleX(1.1);
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    box-shadow: 1px 1px 10px #e3a9a9;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    #container {
+        padding: 50px 0;
+    }
+
+    #about {
+        width: 60%;
+    }
+
+    #image {
+        width: 35%;
+    }
+}
+
+@media (max-width: 992px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    #about {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #image {
+        width: 50%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about h4 {
+        font-size: 1.3rem;
+    }
+
+    #about h4 span {
+        font-size: 1.3rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    #about button {
+        font-size: 0.9rem;
+        width: 120px;
+    }
+
+    #image {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    #about {
+        width: 90%;
+    }
+
+    #about h4 {
+        font-size: 1.2rem;
+    }
+
+    #about h4 span {
+        font-size: 1.2rem;
+    }
+
+    #about p {
+        font-size: 0.9rem;
+    }
+
+    #about button {
+        font-size: 0.8rem;
+        width: 110px;
+    }
+
+    #image {
+        width: 70%;
+    }
 }

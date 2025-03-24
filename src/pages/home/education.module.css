@@ -61,3 +61,79 @@ a{
   text-decoration-color: rgb(205, 174, 234);
   color: rgb(197, 219, 237);
 } 
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .educationContainer {
+      margin: 20px;
+  }
+
+  .education {
+      width: 300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .educationContainer div {
+      flex-direction: column;
+  }
+
+  .education {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+
+  .education:hover {
+      transform: scale(1.1);
+  }
+}
+
+@media (max-width: 768px) {
+  .educationContainer h1 {
+      font-size: 1.8rem;
+  }
+
+  .education h2 {
+      font-size: 1.5rem;
+  }
+
+  .education p {
+      font-size: 0.9rem;
+  }
+
+  .collegeIcon {
+      font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .educationContainer {
+      margin: 10px;
+  }
+
+  .educationContainer h1 {
+      font-size: 1.5rem;
+  }
+
+  .education h2 {
+      font-size: 1.2rem;
+  }
+
+  .education p {
+      font-size: 0.8rem;
+  }
+
+  .collegeIcon {
+      font-size: 3rem;
+  }
+
+  .education {
+      width: 90%;
+      padding: 20px 10px;
+  }
+
+  .education:hover {
+      transform: scale(1.05);
+  }
+}

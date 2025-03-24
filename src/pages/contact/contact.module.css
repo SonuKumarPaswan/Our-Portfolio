@@ -98,3 +98,102 @@
 .contactInfo div>div>p:hover{
     color:#b6765f;
 }
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .contactContainer hr {
+        margin-left: 400px;
+    }
+
+    .contact {
+        padding-left: 30px;
+        padding-right: 100px;
+    }
+
+    .contactForm input,
+    .contactForm textarea {
+        width: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .contactContainer hr {
+        margin-left: 300px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contactForm {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .contactForm input,
+    .contactForm textarea {
+        width: 100%;
+    }
+
+    .contactInfo {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactInfo div {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactContainer hr {
+        margin-left: 200px;
+    }
+
+    .contactForm {
+        width: 90%;
+    }
+
+    .contactInfo h3 {
+        font-size: 1.3rem;
+    }
+
+    .contactInfo div > h1 {
+        font-size: 2.5rem;
+    }
+
+    .contactForm button {
+        width: 130px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactContainer hr {
+        margin-left: 100px;
+        width: 150px;
+    }
+
+    .contactForm {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contactInfo h3 {
+        font-size: 1.2rem;
+    }
+
+    .contactInfo div > h1 {
+        font-size: 2rem;
+    }
+
+    .contactForm button {
+        width: 120px;
+        font-size: 0.8rem;
+    }
+}

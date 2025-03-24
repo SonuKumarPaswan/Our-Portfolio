@@ -39,3 +39,77 @@ background-color: #101112;
   margin-left: 30px;
   padding-top: 12px;
 }
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .skillsWrapper {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillsContainer {
+      padding: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .skillsWrapper {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillsContainer hr {
+      width: 250px;
+  }
+
+  .skills {
+      padding: 15px;
+  }
+
+  .skills h2 {
+      font-size: 1.5rem;
+  }
+
+  .skills section li {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsWrapper {
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .skillsContainer {
+      padding: 30px;
+  }
+
+  .skillsContainer hr {
+      width: 200px;
+  }
+
+  .skills h2 {
+      font-size: 1.3rem;
+  }
+
+  .skills section li {
+      font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .skillsContainer {
+      padding: 20px;
+  }
+
+  .skillsContainer hr {
+      width: 150px;
+  }
+
+  .skills h2 {
+      font-size: 1.2rem;
+  }
+
+  .skills section li {
+      font-size: 0.7rem;
+  }
+}

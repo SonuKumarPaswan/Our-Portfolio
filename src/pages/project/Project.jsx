@@ -21,7 +21,7 @@ const Project = () => {
         </div>
         </a>
         <div>
-        <button><a href="https://github.com/SonuKumarPaswan/">Github <LuExternalLink className={styles.linkIcon}  /></a></button>
+        <button><a href="https://github.com/SonuKumarPaswan/Product-Management-System" target='_blank' >Github <LuExternalLink className={styles.linkIcon}  /></a></button>
           <button><a href="">Live <LuExternalLink className={styles.linkIcon}  /></a></button>
         </div>
       </div>

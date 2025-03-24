@@ -16,7 +16,7 @@ const Navbar = () => {
           <p><Link to={"/skills"} className={style.link}>Skills</Link>  </p>
           <p><Link to={"/projects"}className={style.link}>Projects</Link>  </p>
           <p><Link to={"/contact"}className={style.link}>Contact</Link>  </p>
-          <button id={style.btn}><TiWeatherSunny  className={style.icon}/></button>
+          {/* <button id={style.btn}><TiWeatherSunny  className={style.icon}/></button> */}
         </div>
     </div>
   )
