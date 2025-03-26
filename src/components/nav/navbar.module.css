@@ -61,14 +61,16 @@ button:hover{
 /* For tablets and smaller screens */
 @media (max-width: 768px) {
     .container {
-        height: auto;
+        height: 100px;
         flex-direction: column;
         padding: 10px 0;
     }
 
     .links {
-        width: 100%;
-        flex-direction: column;
+        width: 90%;
+        height: 80px;
+        
+        flex-direction: row;
         align-items: center;
     }
 

@@ -14,12 +14,12 @@ const Layout = () => {
     <div>
      <Navbar/>
      <Outlet/>
-      <Home/> 
+      {/* <Home/> 
       <About/>
       <Education/>
       <Skills/>
       <Project/>
-      <Contact/>
+      <Contact/> */}
     
      <Footer/>
     </div>
