@@ -196,7 +196,17 @@
       top: 0;
       right: 0;
       margin-top: 30px;
+      border: 1px  solid #81D4FA;
       rotate: 0deg;
+  }
+  .two{
+    border: 1px  solid #81D4FA;
+  }
+  .three{
+    border: 1px  solid #81D4FA;
+  }
+  .four{
+    border: 1px  solid #81D4FA;
   }
 
   .photo {
@@ -244,7 +254,9 @@
   }
 
   .photo {
-      height: 270px;
+    height: 220px;
+    width: 90%;
+    border-radius: 10px;
   }
 }
 
@@ -288,5 +300,7 @@
 
   .photo {
       height: 220px;
+      width: 90%;
+      border-radius: 10px;
   }
 }

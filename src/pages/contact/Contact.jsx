@@ -78,13 +78,12 @@ const Contact = () => {
          </div>
         </div>
         <div>
+
          <div> <h1><FaLocationDot className={styles.contacticon}  /></h1></div>
           <div><p>Loacation</p>
           <p>Noida Sector-15</p>
           </div>
         </div>
-
-
         <div>
           <div>
           <h1><HiOutlineMail  className={styles.contacticon}  /></h1>
@@ -94,6 +93,8 @@ const Contact = () => {
           <p> sonupaswan0381@gmail.com</p>
          </div>
         </div>
+
+
 
       </div>
 
