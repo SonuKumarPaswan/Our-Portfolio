@@ -13,12 +13,7 @@ const Layout = () => {
   return (
     <div>
      <Navbar/>
-      <Home/> 
-      <About/>
-      <Education/>
-      <Skills/>
-      <Project/>
-      <Contact/>
+     <Outlet/>
      <Footer/>
     </div>
   )
