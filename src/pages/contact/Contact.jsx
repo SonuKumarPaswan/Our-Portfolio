@@ -3,7 +3,7 @@ import styles from './contact.module.css'
 import { RiContactsFill } from "react-icons/ri";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
-// import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser'; 
 
 const Contact = () => {
   let [contact,setContact]=useState({
@@ -13,6 +13,7 @@ const Contact = () => {
     subject:'',
     message:''
   });
+  
   function handleChange(e){
     let {name,value}=e.target;
     setContact({...contact,[name]:value});
@@ -59,6 +60,7 @@ const Contact = () => {
         }
       );
   };
+  
 
 
   return (

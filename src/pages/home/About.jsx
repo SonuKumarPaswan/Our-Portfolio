@@ -5,6 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 
 const About = () => {
   return (
+    
     <div id={style.container} className="about">
       <div id ={style.image}>
         <img src={myImage} alt="Image" />

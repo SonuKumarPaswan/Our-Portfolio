@@ -8,6 +8,11 @@ import { SiLeetcode } from "react-icons/si";
 import { GrView } from "react-icons/gr";
 import myImage from './image.png'
 import About from './About';
+import Education from './Education';
+import Skills from './Skills';
+import Project from '../project/Project';
+import Contact from '../contact/Contact';
+// import style from '../home/about.module.css'
 
 const Home = () => {
 
@@ -33,7 +38,7 @@ const Home = () => {
           });
 
   return (
-    
+    <div>
     <div className={style.conatiner}>
       <div className={style.content}>
         <h2>Hi👋, I'm</h2>
@@ -69,6 +74,26 @@ const Home = () => {
           </div>
         </div>
       </div>
+    </div>
+    <About/>
+    <Education/>
+    <Skills/>
+    <Project/>
+    <Contact/>
+     {/* <div id={style.container} className="about">
+          <div id ={style.image}>
+            <img src={myImage} alt="Image" />
+          </div>
+          <div id={style.about}>
+          <h1>About Me </h1>
+          <h4>
+            <span>Front End </span> Developer
+          </h4>
+          <p> I'm Sonu Paswan. I have completed my B.Tech Technocrats Institute of Technology from Bhopal, MP. Passionate about building scalable web applications using Java, Spring Boot, and modern frontend & Backend frameworks. And I solve 300+ problem on <a href="https://leetcode.com/u/zsonukumar0578/"><span>LeetCode <FiExternalLink /> </span></a> </p>
+          <a href="https://www.linkedin.com/in/sonukumarpaswan/"><button> Read more</button></a>
+          </div>
+        </div> */}
+
     </div>
   )
 }

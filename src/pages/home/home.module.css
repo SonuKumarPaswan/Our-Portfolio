@@ -108,11 +108,11 @@
     rotate: 135deg;
     border-left: #212121 1px solid;  
     border-radius: 50%;
-    animation: fadeIn 3s ease-in;
+    /* animation: fadeIn 3s ease-in; */
     transition: 3s;
     transform: scaleX(4);
 }
-@keyframes fadeIn {
+ @keyframes fadeIn {
     0% {
       opacity: 0;
       rotate: 45deg;
@@ -138,7 +138,7 @@
         rotate: 135deg;
         transform: scaleX(4);
       }
-  }
+  } 
 
   #cv{
     width: 120px;
